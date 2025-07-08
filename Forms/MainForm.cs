@@ -3,8 +3,8 @@ using System;
 using System.Windows.Forms;
 using System.Linq;
 using System.Collections.Generic;
-using QRCoder; // Add this using directive for QR code generation
-using System.Drawing; // Needed for Bitmap
+using QRCoder; 
+using System.Drawing; 
 
 public class MainForm : Form
 {
@@ -22,7 +22,6 @@ public class MainForm : Form
     private ListBox lstEspacios;
     private Panel panelGrillaEspacios;
     private Label[] lblEspaciosArray;
-    // No PictureBox pbQRCode in MainForm as it's in the new form
 
     private Estacionamiento sistema;
     private string[] espacios = new string[]
@@ -32,7 +31,6 @@ public class MainForm : Form
         "C1", "C2", "C3", "C4", "C5"
     };
     private Dictionary<string, string> espaciosOcupados = new Dictionary<string, string>();
-    // No qrCodeImages dictionary in MainForm as images are passed directly now
 
     public MainForm()
     {
@@ -402,14 +400,12 @@ public class MainForm : Form
             QRCodeGenerator qrGenerator = new QRCodeGenerator();
             QRCodeData qrCodeData = qrGenerator.CreateQrCode(placa, QRCodeGenerator.ECCLevel.Q);
             QRCode qrCode = new QRCode(qrCodeData);
-            Bitmap qrCodeImage = qrCode.GetGraphic(8); // Increased size slightly for better pop-up display
+            Bitmap qrCodeImage = qrCode.GetGraphic(8);
 
-            // Create and show the new QR code form (QRVentana)
             using (QRVentana qrForm = new QRVentana(qrCodeImage))
             {
-                qrForm.ShowDialog(this); // ShowDialog makes it modal, preventing interaction with main form until closed
+                qrForm.ShowDialog(this); 
             }
-            // The qrCodeImage Bitmap will be disposed by QRVentana's OnFormClosed event
         }
         catch (Exception ex)
         {
