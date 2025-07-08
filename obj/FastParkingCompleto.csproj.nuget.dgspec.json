@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Car\\FastParking\\FastParkingCompleto.csproj": {}
+    "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\FastParkingCompleto.csproj": {}
   },
   "projects": {
-    "C:\\Car\\FastParking\\FastParkingCompleto.csproj": {
+    "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\FastParkingCompleto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Car\\FastParking\\FastParkingCompleto.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\FastParkingCompleto.csproj",
         "projectName": "FastParkingCompleto",
-        "projectPath": "C:\\Car\\FastParking\\FastParkingCompleto.csproj",
-        "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\Car\\FastParking\\obj\\",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\FastParkingCompleto.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,10 @@
             "ClosedXML": {
               "target": "Package",
               "version": "[0.105.0, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.6.0, )"
             }
           },
           "imports": [

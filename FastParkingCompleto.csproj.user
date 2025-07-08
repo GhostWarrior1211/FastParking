@@ -5,5 +5,8 @@
     <Compile Update="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="QRVentana.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

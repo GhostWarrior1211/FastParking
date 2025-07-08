@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Car\\FastParking\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B148D0A2-1331-8F1F-6A89-CDB42A612F79}|FastParkingCompleto.csproj|c:\\car\\fastparking\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B148D0A2-1331-8F1F-6A89-CDB42A612F79}|FastParkingCompleto.csproj|c:\\users\\user\\source\\repos\\fastparking1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B148D0A2-1331-8F1F-6A89-CDB42A612F79}|FastParkingCompleto.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B148D0A2-1331-8F1F-6A89-CDB42A612F79}|FastParkingCompleto.csproj|c:\\users\\user\\source\\repos\\fastparking1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B148D0A2-1331-8F1F-6A89-CDB42A612F79}|FastParkingCompleto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B148D0A2-1331-8F1F-6A89-CDB42A612F79}|FastParkingCompleto.csproj|c:\\users\\user\\source\\repos\\fastparking1\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B148D0A2-1331-8F1F-6A89-CDB42A612F79}|FastParkingCompleto.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B148D0A2-1331-8F1F-6A89-CDB42A612F79}|FastParkingCompleto.csproj|c:\\users\\user\\source\\repos\\fastparking1\\qrventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B148D0A2-1331-8F1F-6A89-CDB42A612F79}|FastParkingCompleto.csproj|solutionrelative:qrventana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\Forms\\MainForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Forms\\MainForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T20:25:18.826Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T20:25:12.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QRVentana.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\QRVentana.cs",
+              "RelativeDocumentMoniker": "QRVentana.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\QRVentana.cs",
+              "RelativeToolTip": "QRVentana.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T20:24:25.149Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Car\\FastParking\\Forms\\MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\Forms\\MainForm.cs",
               "RelativeDocumentMoniker": "Forms\\MainForm.cs",
-              "ToolTip": "C:\\Car\\FastParking\\Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\FASTPARKING1\\Forms\\MainForm.cs",
               "RelativeToolTip": "Forms\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAUwKIBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T05:26:22.119Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
